@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import { useLocale } from "next-intl";
 
 interface Props {
@@ -22,8 +23,8 @@ export default function BookingModal({ objectCode, onClose }: Props) {
   const langId = LANG_ID[locale] ?? 1;
 
   // Always pass explicit dates so iDoSell never falls back to 01-01-1970
-  const startDate = isoDate(0);
-  const endDate = isoDate(1);
+  const startDate = isoDate(7);
+  const endDate = isoDate(8);
 
   const base = `https://client8134.idobooking.com/book-now/index.php?language=${langId}&transparentbackground=1&start_date=${startDate}&end_date=${endDate}`;
   const src = objectCode !== null ? `${base}&ob[${objectCode}]=1` : base;
@@ -38,7 +39,7 @@ export default function BookingModal({ objectCode, onClose }: Props) {
     };
   }, [onClose]);
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
@@ -73,6 +74,7 @@ export default function BookingModal({ objectCode, onClose }: Props) {
           allow="payment"
         />
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

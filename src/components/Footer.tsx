@@ -21,39 +21,6 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed max-w-xs">{t("tagline")}</p>
-            <div className="flex items-center gap-2.5 mt-7">
-              <a
-                href="https://www.airbnb.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-sand-200/60 hover:text-white hover:border-white/30 hover:bg-white/5 transition-colors"
-                aria-label="Airbnb"
-              >
-                <svg className="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4.5c1.857 0 3.37 1.51 3.37 3.368 0 1.857-1.513 3.37-3.37 3.37-1.858 0-3.37-1.513-3.37-3.37C8.63 6.01 10.142 4.5 12 4.5zm0 14.625c-2.84 0-5.363-1.42-6.908-3.592.035-2.286 4.605-3.542 6.908-3.542 2.296 0 6.873 1.256 6.908 3.542C17.363 17.705 14.84 19.125 12 19.125z" />
-                </svg>
-              </a>
-              <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-sand-200/60 hover:text-white hover:border-white/30 hover:bg-white/5 transition-colors"
-                aria-label="Facebook"
-              >
-                <svg className="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                </svg>
-              </a>
-              <a
-                href="https://www.booking.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="h-10 px-4 rounded-full border border-white/10 flex items-center text-xs font-bold tracking-tight text-sand-200/60 hover:text-white hover:border-white/30 hover:bg-white/5 transition-colors"
-                aria-label="Booking.com"
-              >
-                Booking.com
-              </a>
-            </div>
           </div>
 
           {/* Links */}

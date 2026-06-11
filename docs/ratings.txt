@@ -1,0 +1,15 @@
+"Bluesa" Rynek Kościuszki - 9.8
+"Cichy" Waryńskiego 1A - 9.8
+"Komfortowy" Proletariacka 2A - 9.6
+"Przytulny" Legionowa 2 - 9.7
+"Kameralny" Legionowa 2 - 9.6
+"Uroczy" Nowy Świat 18 - 9.6
+"Wygodny" Nowy Świat 13 - 9.6
+"Przy Rynku" Sienkiewicza 6 - 9.7
+"Centrum" Lipowa 18 - 9.7
+"Śródmieście" Sienkiewicza 1 - 9.5
+"Rodzinny" Chrobrego 16 - 9.6
+"W sercu miasta" Lipowa 1 - 9.7
+Broniewskiego 15 - 9.7
+"Przy Katedrze" Piłsudskiego 44 - 9.8
+"Centrum Zamenhofa" Zamenhofa 1 - 9.6

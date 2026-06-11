@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "map": "Map",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "home": {
+    "hero_title": "Your perfect apartment in the heart of Białystok",
+    "hero_subtitle": "Comfortable, fully equipped apartments for short and long stays. Prime location, high standards.",
+    "hero_cta_primary": "View apartments",
+    "hero_cta_secondary": "Book now",
+    "stats_apartments": "apartments",
+    "stats_reviews": "reviews",
+    "stats_rating": "average rating",
+    "stats_years": "years of experience",
+    "featured_title": "Featured apartments",
+    "featured_subtitle": "Find your perfect place to stay",
+    "view_all": "View all",
+    "why_title": "Why Central Rental?",
+    "why_location": "Prime location",
+    "why_location_desc": "All apartments in the heart of Białystok, close to restaurants, shops, and attractions.",
+    "why_comfort": "High comfort",
+    "why_comfort_desc": "Fully equipped kitchens, fast Wi-Fi, fresh bed linen and towels.",
+    "why_support": "24/7 support",
+    "why_support_desc": "Always available to help you during your stay.",
+    "why_price": "Fair pricing",
+    "why_price_desc": "Transparent pricing with no hidden fees. Airbnb Superhost."
+  },
+  "apartments": {
+    "title": "Our apartments",
+    "subtitle": "8 apartments in central Białystok",
+    "area": "Area",
+    "guests": "Guests",
+    "beds": "Beds",
+    "floor": "Floor",
+    "rating": "Rating",
+    "reviews": "reviews",
+    "book_now": "Book now",
+    "view_details": "Details",
+    "type_studio": "Studio",
+    "type_apartment": "Apartment",
+    "amenities": "Amenities",
+    "close": "Close",
+    "sqm": "m²"
+  },
+  "map": {
+    "title": "Apartment locations",
+    "subtitle": "All apartments in central Białystok",
+    "view_details": "View details"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have questions? We're happy to help.",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone (optional)",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! We'll get back to you as soon as possible.",
+    "error": "Something went wrong. Please try again or call us.",
+    "info_title": "Contact details",
+    "info_owner": "Wojciech Borowski",
+    "info_phone": "+48 502 185 070",
+    "info_email": "contact@centralrental.pl",
+    "info_address": "Białystok, Poland",
+    "social_title": "Find us online"
+  },
+  "credentials": {
+    "superhost_label": "Superhost",
+    "superhost_desc": "Verified superhost status",
+    "booking_award": "Traveller Review Awards 2021",
+    "booking_basis": "Company rating based on 1,209 reviews across 8 properties in 2026"
+  },
+  "footer": {
+    "tagline": "Comfortable apartments in central Białystok",
+    "links_title": "Navigation",
+    "contact_title": "Contact",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy policy",
+    "rules": "Terms & conditions"
+  },
+  "amenities": {
+    "wifi": "Wi-Fi",
+    "kitchen": "Kitchen",
+    "washing_machine": "Washing machine",
+    "tv": "TV",
+    "air_conditioning": "Air conditioning",
+    "parking": "Parking",
+    "elevator": "Elevator",
+    "balcony": "Balcony",
+    "dishwasher": "Dishwasher",
+    "iron": "Iron"
+  }
+}

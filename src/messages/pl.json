@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "apartments": "Apartamenty",
+    "map": "Mapa",
+    "contact": "Kontakt",
+    "book": "Rezerwuj"
+  },
+  "home": {
+    "hero_title": "Twój idealny apartament w centrum Białegostoku",
+    "hero_subtitle": "Komfortowe, w pełni wyposażone apartamenty na krótki i długi pobyt. Doskonała lokalizacja, wysoki standard.",
+    "hero_cta_primary": "Zobacz apartamenty",
+    "hero_cta_secondary": "Zarezerwuj teraz",
+    "stats_apartments": "apartamentów",
+    "stats_reviews": "opinii",
+    "stats_rating": "średnia ocena",
+    "stats_years": "lat doświadczenia",
+    "featured_title": "Polecane apartamenty",
+    "featured_subtitle": "Wybierz idealne miejsce dla siebie",
+    "view_all": "Zobacz wszystkie",
+    "why_title": "Dlaczego Central Rental?",
+    "why_location": "Doskonała lokalizacja",
+    "why_location_desc": "Wszystkie apartamenty w ścisłym centrum Białegostoku, blisko restauracji, sklepów i atrakcji.",
+    "why_comfort": "Wysoki komfort",
+    "why_comfort_desc": "W pełni wyposażone kuchnie, szybkie Wi-Fi, świeże pościele i ręczniki.",
+    "why_support": "Wsparcie 24/7",
+    "why_support_desc": "Zawsze dostępni, aby pomóc podczas Twojego pobytu.",
+    "why_price": "Uczciwe ceny",
+    "why_price_desc": "Transparentne ceny bez ukrytych opłat. Airbnb Superhost."
+  },
+  "apartments": {
+    "title": "Nasze apartamenty",
+    "subtitle": "8 apartamentów w centrum Białegostoku",
+    "area": "Powierzchnia",
+    "guests": "Goście",
+    "beds": "Łóżka",
+    "floor": "Piętro",
+    "rating": "Ocena",
+    "reviews": "opinii",
+    "book_now": "Zarezerwuj",
+    "view_details": "Szczegóły",
+    "type_studio": "Studio",
+    "type_apartment": "Apartament",
+    "amenities": "Udogodnienia",
+    "close": "Zamknij",
+    "sqm": "m²"
+  },
+  "map": {
+    "title": "Lokalizacja apartamentów",
+    "subtitle": "Wszystkie apartamenty w centrum Białegostoku",
+    "view_details": "Szczegóły"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Masz pytania? Chętnie pomożemy.",
+    "name": "Imię i nazwisko",
+    "email": "Adres e-mail",
+    "phone": "Telefon (opcjonalnie)",
+    "message": "Wiadomość",
+    "send": "Wyślij wiadomość",
+    "sending": "Wysyłanie...",
+    "success": "Wiadomość wysłana! Odpiszemy najszybciej jak to możliwe.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie lub zadzwoń do nas.",
+    "info_title": "Dane kontaktowe",
+    "info_owner": "Wojciech Borowski",
+    "info_phone": "+48 502 185 070",
+    "info_email": "kontakt@centralrental.pl",
+    "info_address": "Białystok, Polska",
+    "social_title": "Znajdź nas online"
+  },
+  "credentials": {
+    "superhost_label": "Superhost",
+    "superhost_desc": "Zweryfikowany status superhosta",
+    "booking_award": "Traveller Review Awards 2021",
+    "booking_basis": "Ocena firmy na podstawie 1209 opinii z 8 obiektów w 2026"
+  },
+  "footer": {
+    "tagline": "Komfortowe apartamenty w centrum Białegostoku",
+    "links_title": "Nawigacja",
+    "contact_title": "Kontakt",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "privacy": "Polityka prywatności",
+    "rules": "Regulamin"
+  },
+  "amenities": {
+    "wifi": "Wi-Fi",
+    "kitchen": "Aneks kuchenny",
+    "washing_machine": "Pralka",
+    "tv": "Telewizor",
+    "air_conditioning": "Klimatyzacja",
+    "parking": "Parking",
+    "elevator": "Winda",
+    "balcony": "Balkon",
+    "dishwasher": "Zmywarka",
+    "iron": "Żelazko"
+  }
+}

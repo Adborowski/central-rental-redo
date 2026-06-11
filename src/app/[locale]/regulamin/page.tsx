@@ -1,17 +1,18 @@
 import { useTranslations } from "next-intl";
+import PageHeader from "@/components/PageHeader";
+import { DownloadIcon } from "@/components/Icons";
 
 export default function RegulaminPage() {
   const t = useTranslations("footer");
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="bg-primary-700 text-white py-14">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <h1 className="text-4xl font-bold">{t("rules")}</h1>
-        </div>
-      </div>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-        <div className="bg-white rounded-2xl shadow-sm overflow-hidden" style={{ height: "80vh" }}>
+    <div className="min-h-screen bg-sand-50">
+      <PageHeader title={t("rules")} />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+        <div
+          className="bg-white rounded-3xl ring-1 ring-stone-900/5 shadow-sm overflow-hidden"
+          style={{ height: "80vh" }}
+        >
           <embed
             src="/docs/regulamin.pdf"
             type="application/pdf"
@@ -19,15 +20,13 @@ export default function RegulaminPage() {
             height="100%"
           />
         </div>
-        <div className="mt-4 text-center">
+        <div className="mt-6 text-center">
           <a
             href="/docs/regulamin.pdf"
             download
-            className="inline-flex items-center gap-2 text-sm text-primary-700 font-semibold hover:text-primary-900 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-stone-300 bg-white text-sm text-stone-700 font-semibold hover:border-primary-700 hover:text-primary-800 transition-colors"
           >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-            </svg>
+            <DownloadIcon className="w-4 h-4" />
             Pobierz PDF
           </a>
         </div>

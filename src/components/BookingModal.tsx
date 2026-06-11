@@ -42,21 +42,21 @@ export default function BookingModal({ objectCode, onClose }: Props) {
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-black bg-opacity-70 backdrop-blur-sm"
+        className="absolute inset-0 bg-primary-900/75 backdrop-blur-sm animate-fade-in [animation-duration:250ms]"
         onClick={onClose}
       />
 
       {/* Modal */}
-      <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-3xl flex flex-col overflow-hidden"
+      <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-3xl flex flex-col overflow-hidden animate-fade-up [animation-duration:350ms]"
            style={{ height: "min(680px, 90vh)" }}>
         {/* Header */}
-        <div className="flex items-center justify-between px-5 py-3 bg-primary-700 flex-shrink-0">
-          <span className="text-white font-semibold text-sm">
+        <div className="flex items-center justify-between px-6 py-4 bg-primary-900 flex-shrink-0">
+          <span className="text-white font-semibold">
             {locale === "pl" ? "Rezerwacja online" : locale === "ru" ? "Онлайн-бронирование" : "Online booking"}
           </span>
           <button
             onClick={onClose}
-            className="text-primary-200 hover:text-white transition-colors p-1"
+            className="w-8 h-8 rounded-full flex items-center justify-center text-sand-200/70 hover:text-white hover:bg-white/10 transition-colors"
             aria-label="Close"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

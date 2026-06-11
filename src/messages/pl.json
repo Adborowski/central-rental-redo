@@ -7,7 +7,7 @@
     "book": "Rezerwuj"
   },
   "home": {
-    "hero_title": "Twój idealny apartament w centrum Białegostoku",
+    "hero_title": "Najlepsze adresy w mieście gotowe na nowych gości",
     "hero_subtitle": "Komfortowe, w pełni wyposażone apartamenty na krótki i długi pobyt. Doskonała lokalizacja, wysoki standard.",
     "hero_cta_primary": "Zobacz apartamenty",
     "hero_cta_secondary": "Zarezerwuj teraz",
@@ -15,9 +15,11 @@
     "stats_reviews": "opinii",
     "stats_rating": "średnia ocena",
     "stats_years": "lat doświadczenia",
+    "featured_eyebrow": "Nasza oferta",
     "featured_title": "Polecane apartamenty",
     "featured_subtitle": "Wybierz idealne miejsce dla siebie",
     "view_all": "Zobacz wszystkie",
+    "why_eyebrow": "Co nas wyróżnia",
     "why_title": "Dlaczego Central Rental?",
     "why_location": "Doskonała lokalizacja",
     "why_location_desc": "Wszystkie apartamenty w ścisłym centrum Białegostoku, blisko restauracji, sklepów i atrakcji.",
@@ -26,7 +28,10 @@
     "why_support": "Wsparcie 24/7",
     "why_support_desc": "Zawsze dostępni, aby pomóc podczas Twojego pobytu.",
     "why_price": "Uczciwe ceny",
-    "why_price_desc": "Transparentne ceny bez ukrytych opłat. Airbnb Superhost."
+    "why_price_desc": "Transparentne ceny bez ukrytych opłat. Airbnb Superhost.",
+    "cta_title": "Zaplanuj swój pobyt w Białymstoku",
+    "cta_subtitle": "Sprawdź dostępność i zarezerwuj apartament online w kilka minut.",
+    "cta_button": "Sprawdź dostępność"
   },
   "apartments": {
     "title": "Nasze apartamenty",

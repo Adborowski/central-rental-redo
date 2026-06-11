@@ -15,9 +15,11 @@
     "stats_reviews": "reviews",
     "stats_rating": "average rating",
     "stats_years": "years of experience",
+    "featured_eyebrow": "Our offer",
     "featured_title": "Featured apartments",
     "featured_subtitle": "Find your perfect place to stay",
     "view_all": "View all",
+    "why_eyebrow": "What sets us apart",
     "why_title": "Why Central Rental?",
     "why_location": "Prime location",
     "why_location_desc": "All apartments in the heart of Białystok, close to restaurants, shops, and attractions.",
@@ -26,7 +28,10 @@
     "why_support": "24/7 support",
     "why_support_desc": "Always available to help you during your stay.",
     "why_price": "Fair pricing",
-    "why_price_desc": "Transparent pricing with no hidden fees. Airbnb Superhost."
+    "why_price_desc": "Transparent pricing with no hidden fees. Airbnb Superhost.",
+    "cta_title": "Plan your stay in Białystok",
+    "cta_subtitle": "Check availability and book your apartment online in minutes.",
+    "cta_button": "Check availability"
   },
   "apartments": {
     "title": "Our apartments",
